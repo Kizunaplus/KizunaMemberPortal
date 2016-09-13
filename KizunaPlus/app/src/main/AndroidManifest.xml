@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kizunaplus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".KizunaPlusActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".KizunaPlusActivity2" />
+        <activity android:name=".KizunaPlusActivty3" />
+        <activity android:name=".KizunaPlusActivity3" />
+        <activity android:name=".KizunaPlusActivity4" />
+        <activity android:name=".KizunaPlusActivity5" />
+        <activity android:name=".KabaMainActivity" />
+        <activity android:name=".KavaCategoryActivity" />
+        <activity android:name=".KabaCategoryActivity" />
+        <activity android:name=".KabaOperationManualActivity" />
+        <activity android:name=".KabaSocietyActivity" />
+        <activity android:name=".KabaEngineerCommonActivity" />
+        <activity android:name=".KabaOperationManualForTestEngineer" />
+        <activity android:name=".KabaOperationManualForDvelopmentEngineer" />
+        <activity android:name=".KabaOperationManualForInfrastuctureEngineer"></activity>
+    </application>
+
+</manifest>
